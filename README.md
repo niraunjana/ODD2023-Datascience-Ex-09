@@ -91,14 +91,14 @@ sns.boxplot(x=df['sex'],y=df['tip'],hue=df['sex'])
 plt.title("Tips BAsed on gender")
 ```
 ![image](https://github.com/niraunjana/ODD2023-Datascience-Ex-09/assets/119395610/dce80f56-a178-4a42-b893-7fdd70bbd850)
-### 5) Is there any relationship between the total bill amount and the day of the week?
+# 5) Is there any relationship between the total bill amount and the day of the week?
 ```
 sns.scatterplot(x=df['day'],y=df['total_bill'],hue=df['day'])
 plt.legend(loc="best")
 plt.title("Total bill amount by day of the week")
 ```
 ![image](https://github.com/niraunjana/ODD2023-Datascience-Ex-09/assets/119395610/e657d079-ac9e-400e-bfe2-e2cb0eec3154)
-### 6) How does the distribution of total bill amounts vary across different time periods (lunch vs. dineer)?
+#  6) How does the distribution of total bill amounts vary across different time periods (lunch vs. dineer)?
 ```
 sns.histplot(data=df,x="total_bill",hue="time",element="step",stat="density")
 plt.title("Distribution of Total Bill Amounts by Time of Day")
