@@ -35,7 +35,9 @@ print(df)
 df.isnull().sum()
 ```
 ![image](https://github.com/niraunjana/ODD2023-Datascience-Ex-09/assets/119395610/2158a19a-49b0-44d3-8b3f-239e875e0a5d)
+
 #Handling Outliers
+
 ```
 plt.figure(figsize=(5,5))
 plt.title("Data with Outliers")
@@ -43,7 +45,9 @@ df.boxplot()
 plt.show()
 ```
 ![image](https://github.com/niraunjana/ODD2023-Datascience-Ex-09/assets/119395610/2a7abc0a-0731-4c72-9f6b-112a7e3d1d17)
+
 #Removing outliers
+
 ```
 plt.figure(figsize=(9,6))
 cols=["size","tip","total_bill"]
